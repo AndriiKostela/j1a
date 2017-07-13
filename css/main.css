@@ -1,0 +1,120 @@
+body {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 5px;
+
+}
+header{
+    background-color: rgb(184, 184, 184);
+    height: 80px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(184, 184, 184);
+    height: 70px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: auto;
+
+}
+.btn{
+    background: rgb(255, 153, 51);
+    width: 100px;
+    height: 150px;
+   
+}
+
+.btn:hover{
+    background: rgb(225, 137, 37);;
+}
+
+.btn1{
+    background-color: rgb(225, 137, 37);
+    height: 20px;
+}
+.btn1:hover{
+    background: rgb(255, 153, 51);
+}
+ #btnbuy {
+     width: 150px;
+     height: 50px;
+      margin-top: 10px
+ }
+ #btnbuy3{
+     display: block;
+     width: 150px;
+     height: 50px;
+      margin-top: 10px;
+      margin-left:50px;
+ }
+     #btnbuy3 img{
+    display: inline-block;
+    height: 10px;
+    margin-top:  5px;
+    margin-right: 70px;
+     }
+     
+     
+     .btnbuy {
+     align-self: center;
+ }
+#btnbuy5, #btnbuy4{
+     width: 170px;
+     height: 60px;
+      margin-top: 10px;
+      color:white;
+    
+}
+#btnbuy6{
+     width: 80px;
+     height: 30px;
+    margin-top: 10px;
+    color:white;
+}
+      .btnbuy2 {
+     align-self: center;
+ }
+#btnbuy2{
+    width: 200px;
+     height: 100px;
+      margin-top: 10px;
+      color:white;
+      font-size: 1.5rem;
+      display: block;
+}
+
+#btnbuy2 img{
+    display: inline-block;
+    height: 15px;
+    margin-bottom: 4px;
+    
+}
+     
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    width: 650px;
+    margin-right: 150px;
+    
+}
+.tex{
+    margin-left:20px;
+}
+.btnblock{
+    margin-left: 20px;
+    margin-right: 0;
+    border-style: dashed;
+    border-color: red;
+    border-width: 2px;
+    padding: 5px;
+    align-self: center;
+}
+
+
+ 
